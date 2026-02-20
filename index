@@ -1,0 +1,1387 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Private Pool Birthday Party Venue | Exclusive Luxury Rental</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <meta name="theme-color" content="#05040B" />
+  <style>
+    :root { --bg:#05040B; --panel: rgba(255,255,255,.06); --panel2: rgba(255,255,255,.09); --line: rgba(255,255,255,.12); --txt: rgba(255,255,255,.92); --muted: rgba(255,255,255,.68); --gold:#D9B46D; --aqua:#3EE7D1; --violet:#8B5CF6; }
+    html, body { height:100%; }
+    body { font-family: Manrope, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: radial-gradient(1200px 900px at 20% 10%, rgba(62,231,209,.20), transparent 55%),
+      radial-gradient(900px 700px at 80% 0%, rgba(139,92,246,.22), transparent 60%),
+      radial-gradient(1200px 900px at 70% 80%, rgba(217,180,109,.18), transparent 55%),
+      linear-gradient(180deg, #05040B 0%, #060316 45%, #04050C 100%);
+      color: var(--txt);
+      overflow-x:hidden;
+    }
+    .font-serif { font-family: "Playfair Display", ui-serif, Georgia, serif; }
+    .glass { background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.05)); border: 1px solid rgba(255,255,255,.12); box-shadow: 0 20px 60px rgba(0,0,0,.55); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+    .glass-strong { background: linear-gradient(180deg, rgba(255,255,255,.11), rgba(255,255,255,.06)); border: 1px solid rgba(255,255,255,.14); box-shadow: 0 24px 80px rgba(0,0,0,.65); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+    .ringline { position: relative; }
+    .ringline:before { content:""; position:absolute; inset:-1px; border-radius: 9999px; padding:1px; background: linear-gradient(90deg, rgba(62,231,209,.9), rgba(139,92,246,.9), rgba(217,180,109,.9)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity:.85; }
+    .btn-shine { position: relative; overflow:hidden; }
+    .btn-shine:after { content:""; position:absolute; top:-120%; left:-30%; width:60%; height:320%; transform: rotate(25deg); background: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent); transition: transform .9s ease, top .9s ease; }
+    .btn-shine:hover:after { top:-60%; transform: translateX(260%) rotate(25deg); }
+    .glow { box-shadow: 0 10px 30px rgba(62,231,209,.12), 0 18px 60px rgba(139,92,246,.10); }
+    .gridfade { background-image:
+      linear-gradient(to right, rgba(255,255,255,.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255,255,255,.06) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,.1) 72%, transparent 85%);
+      -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,.1) 72%, transparent 85%);
+      opacity:.45;
+    }
+    .blob { filter: blur(38px); transform: translateZ(0); opacity:.75; }
+    .floaty { animation: floaty 8s ease-in-out infinite; }
+    .floaty2 { animation: floaty2 10s ease-in-out infinite; }
+    .floaty3 { animation: floaty3 12s ease-in-out infinite; }
+    @keyframes floaty { 0%,100%{ transform: translate(0,0) scale(1); } 50%{ transform: translate(18px,-22px) scale(1.08);} }
+    @keyframes floaty2 { 0%,100%{ transform: translate(0,0) scale(1); } 50%{ transform: translate(-22px,18px) scale(1.06);} }
+    @keyframes floaty3 { 0%,100%{ transform: translate(0,0) scale(1); } 50%{ transform: translate(14px,26px) scale(1.10);} }
+    .reveal { opacity:0; transform: translateY(14px) scale(.99); transition: opacity .8s ease, transform .8s ease; }
+    .reveal.show { opacity:1; transform: translateY(0) scale(1); }
+    .tilt { transform-style: preserve-3d; perspective: 900px; }
+    .tilt-inner { transform: translateZ(0); }
+    .noise {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .06;
+      mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.9'/%3E%3C/svg%3E");
+      background-size: 240px 240px;
+      animation: grain 10s steps(10) infinite;
+    }
+    @keyframes grain {
+      0% { transform: translate(0,0); }
+      10% { transform: translate(-2%, -1%); }
+      20% { transform: translate(-4%, 2%); }
+      30% { transform: translate(3%, -3%); }
+      40% { transform: translate(1%, 4%); }
+      50% { transform: translate(-3%, 1%); }
+      60% { transform: translate(4%, 0%); }
+      70% { transform: translate(0%, 3%); }
+      80% { transform: translate(-2%, -3%); }
+      90% { transform: translate(2%, -2%); }
+      100% { transform: translate(0,0); }
+    }
+    .scanline {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,.035) 0px,
+        rgba(255,255,255,.035) 1px,
+        transparent 2px,
+        transparent 6px
+      );
+      opacity: .05;
+      mix-blend-mode: overlay;
+    }
+    .sparkle {
+      background: radial-gradient(circle at 20% 10%, rgba(255,255,255,.22), transparent 35%),
+                  radial-gradient(circle at 70% 60%, rgba(255,255,255,.16), transparent 40%),
+                  radial-gradient(circle at 30% 80%, rgba(255,255,255,.12), transparent 38%);
+    }
+    .shadow-soft { box-shadow: 0 16px 60px rgba(0,0,0,.55); }
+    .input {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.14);
+      color: rgba(255,255,255,.92);
+      outline: none;
+      transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+    }
+    .input:focus {
+      border-color: rgba(62,231,209,.55);
+      box-shadow: 0 0 0 6px rgba(62,231,209,.12);
+    }
+    .badge {
+      background: rgba(217,180,109,.12);
+      border: 1px solid rgba(217,180,109,.26);
+      color: rgba(255,255,255,.9);
+    }
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.18), transparent);
+    }
+    .scrollbar-hide::-webkit-scrollbar { display:none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: "#05040B",
+            gold: "#D9B46D",
+            aqua: "#3EE7D1",
+            violet: "#8B5CF6"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scanline"></div>
+
+  <header class="sticky top-0 z-50">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/10"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4">
+      <div class="glass-strong rounded-2xl px-4 sm:px-5 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl ringline">
+            <div class="w-full h-full rounded-2xl bg-gradient-to-br from-aqua/25 via-violet/20 to-gold/20 flex items-center justify-center">
+              <i class="fas fa-water text-white/85"></i>
+            </div>
+          </div>
+          <div class="leading-tight">
+            <div class="text-white/90 font-semibold tracking-wide">Private Pool Party Venue</div>
+            <div class="text-xs text-white/60 -mt-0.5">Exclusive birthday rentals</div>
+          </div>
+        </div>
+
+```
+    <div class="flex items-center gap-2 sm:gap-3">
+      <a href="#gallery" class="hidden md:inline-flex text-sm text-white/70 hover:text-white/90 transition px-3 py-2 rounded-xl hover:bg-white/5">Gallery</a>
+      <a href="#packages" class="hidden md:inline-flex text-sm text-white/70 hover:text-white/90 transition px-3 py-2 rounded-xl hover:bg-white/5">Packages</a>
+      <a href="#reviews" class="hidden md:inline-flex text-sm text-white/70 hover:text-white/90 transition px-3 py-2 rounded-xl hover:bg-white/5">Reviews</a>
+
+      <a id="callTop" href="tel:+10000000000" class="hidden sm:inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-white/5 hover:bg-white/8 border border-white/10 text-white/85 transition">
+        <i class="fas fa-phone-alt text-xs text-gold"></i>
+        <span class="text-sm font-semibold">Call</span>
+      </a>
+
+      <button data-scroll="#book" class="btn-shine relative inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-aqua/90 via-violet/85 to-gold/85 text-black font-extrabold tracking-tight shadow-soft hover:shadow-[0_18px_70px_rgba(62,231,209,.18)] transition">
+        <i class="fas fa-calendar-check"></i>
+        <span>Check Availability</span>
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+  </header>
+
+  <main class="relative">
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0">
+        <div class="absolute inset-0 gridfade"></div>
+
+```
+    <div class="absolute -top-16 -left-24 w-[420px] h-[420px] rounded-full blob floaty" style="background: radial-gradient(circle at 30% 30%, rgba(62,231,209,.55), transparent 55%), radial-gradient(circle at 70% 70%, rgba(139,92,246,.45), transparent 55%);"></div>
+    <div class="absolute top-28 -right-32 w-[520px] h-[520px] rounded-full blob floaty2" style="background: radial-gradient(circle at 35% 40%, rgba(217,180,109,.55), transparent 58%), radial-gradient(circle at 70% 60%, rgba(139,92,246,.38), transparent 60%);"></div>
+    <div class="absolute -bottom-40 left-1/2 -translate-x-1/2 w-[720px] h-[720px] rounded-full blob floaty3" style="background: radial-gradient(circle at 40% 40%, rgba(62,231,209,.35), transparent 60%), radial-gradient(circle at 65% 65%, rgba(217,180,109,.28), transparent 62%);"></div>
+  </div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-14 sm:pt-18 lg:pt-20 pb-10 sm:pb-14">
+    <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+      <div class="lg:col-span-7 reveal">
+        <div class="inline-flex items-center gap-2 badge px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide">
+          <i class="fas fa-lock text-gold"></i>
+          <span>100% private venue • No crowds • Just your guests</span>
+        </div>
+
+        <h1 class="mt-5 text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold tracking-tight text-white">
+          Rent a <span class="text-transparent bg-clip-text bg-gradient-to-r from-aqua via-violet to-gold">Private Pool</span> for an Unforgettable Birthday Party
+        </h1>
+
+        <p class="mt-5 text-base sm:text-lg text-white/72 max-w-2xl leading-relaxed">
+          A high-end pool party space designed for “wow.” Clean, exclusive, and ready for celebration — from kids’ birthdays to stylish adult gatherings.
+        </p>
+
+        <div class="mt-7 flex flex-col sm:flex-row gap-3 sm:items-center">
+          <button data-scroll="#book" class="btn-shine inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+            <i class="fas fa-bolt"></i>
+            <span>Get Instant Quote</span>
+          </button>
+          <button id="openTour" class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl glass border border-white/12 text-white/90 hover:bg-white/10 transition">
+            <i class="fas fa-play text-gold"></i>
+            <span class="font-semibold">View 30s Tour</span>
+          </button>
+        </div>
+
+        <div class="mt-8 grid grid-cols-3 gap-3 sm:gap-4 max-w-xl">
+          <div class="glass rounded-2xl px-4 py-3">
+            <div class="text-xs text-white/60 font-semibold">Rating</div>
+            <div class="mt-1 flex items-center gap-1.5 text-white/90 font-extrabold">
+              <span class="text-lg">4.9</span>
+              <span class="text-xs text-white/60 font-bold">/5</span>
+              <span class="ml-2 text-xs text-white/60 font-semibold">from 120+ parties</span>
+            </div>
+          </div>
+          <div class="glass rounded-2xl px-4 py-3">
+            <div class="text-xs text-white/60 font-semibold">Hosted</div>
+            <div class="mt-1 text-white/90 font-extrabold text-lg"><span data-counter="320">0</span>+</div>
+            <div class="text-xs text-white/60 font-semibold -mt-0.5">birthday celebrations</div>
+          </div>
+          <div class="glass rounded-2xl px-4 py-3">
+            <div class="text-xs text-white/60 font-semibold">Response</div>
+            <div class="mt-1 text-white/90 font-extrabold text-lg"><span data-counter="10">0</span> min</div>
+            <div class="text-xs text-white/60 font-semibold -mt-0.5">typical reply</div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3 text-sm text-white/70">
+          <div class="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-white/5 border border-white/10">
+            <i class="fas fa-shield-alt text-aqua"></i>
+            <span class="font-semibold">Clean & safe</span>
+          </div>
+          <div class="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-white/5 border border-white/10">
+            <i class="fas fa-music text-violet"></i>
+            <span class="font-semibold">Sound system</span>
+          </div>
+          <div class="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-white/5 border border-white/10">
+            <i class="fas fa-bbq text-gold"></i>
+            <span class="font-semibold">BBQ / lounge area</span>
+          </div>
+          <div class="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-white/5 border border-white/10">
+            <i class="fas fa-shower text-white/80"></i>
+            <span class="font-semibold">Showers & changing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 reveal">
+        <div class="tilt glass-strong rounded-3xl p-5 sm:p-6 shadow-soft relative overflow-hidden">
+          <div class="absolute inset-0 sparkle opacity-60"></div>
+          <div class="absolute -top-10 -right-10 w-40 h-40 rounded-full blob" style="background: radial-gradient(circle at 30% 30%, rgba(62,231,209,.35), transparent 65%);"></div>
+          <div class="absolute -bottom-10 -left-12 w-48 h-48 rounded-full blob" style="background: radial-gradient(circle at 30% 30%, rgba(217,180,109,.28), transparent 65%);"></div>
+
+          <div class="relative tilt-inner">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <div class="text-white/90 font-extrabold tracking-tight text-lg">Instant Quote & Availability</div>
+                <div class="text-white/60 text-sm mt-1">Send a request — we confirm fast.</div>
+              </div>
+              <div class="px-3 py-1.5 rounded-full bg-black/30 border border-white/10 text-xs font-bold text-white/70">
+                <i class="fas fa-fire text-gold mr-1"></i> Weekend slots fill up
+              </div>
+            </div>
+
+            <div class="divider my-5"></div>
+
+            <form id="leadFormTop" class="space-y-3">
+              <div class="grid sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="text-xs font-semibold text-white/70">Name</label>
+                  <input required name="name" class="mt-1 w-full input rounded-2xl px-4 py-3" placeholder="Your name" />
+                </div>
+                <div>
+                  <label class="text-xs font-semibold text-white/70">Phone</label>
+                  <input required name="phone" inputmode="tel" class="mt-1 w-full input rounded-2xl px-4 py-3" placeholder="(000) 000-0000" />
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="text-xs font-semibold text-white/70">Preferred date</label>
+                  <input required type="date" name="date" class="mt-1 w-full input rounded-2xl px-4 py-3" />
+                </div>
+                <div>
+                  <label class="text-xs font-semibold text-white/70">Guests</label>
+                  <select required name="guests" class="mt-1 w-full input rounded-2xl px-4 py-3">
+                    <option value="" selected disabled>Choose</option>
+                    <option>Up to 10</option>
+                    <option>11–20</option>
+                    <option>21–30</option>
+                    <option>31–40</option>
+                    <option>40+</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="text-xs font-semibold text-white/70">Party type</label>
+                <div class="mt-2 grid grid-cols-3 gap-2">
+                  <button type="button" data-chip="Kids Birthday" class="chip px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-white/80 text-xs font-bold hover:bg-white/10 transition">Kids Birthday</button>
+                  <button type="button" data-chip="Teen Birthday" class="chip px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-white/80 text-xs font-bold hover:bg-white/10 transition">Teen</button>
+                  <button type="button" data-chip="Adult Birthday" class="chip px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-white/80 text-xs font-bold hover:bg-white/10 transition">Adult</button>
+                </div>
+                <input type="hidden" name="partyType" value="Kids Birthday" />
+              </div>
+
+              <div>
+                <label class="text-xs font-semibold text-white/70">Notes (optional)</label>
+                <textarea name="notes" rows="3" class="mt-1 w-full input rounded-2xl px-4 py-3" placeholder="Any special requests? Decor, BBQ, music, timing…"></textarea>
+              </div>
+
+              <button type="submit" class="btn-shine w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+                <i class="fas fa-sparkles"></i>
+                <span>Send Request</span>
+              </button>
+
+              <div class="flex items-center justify-between gap-3 text-xs text-white/55">
+                <div class="flex items-center gap-2">
+                  <i class="fas fa-lock text-white/50"></i>
+                  <span>No spam. Your info stays private.</span>
+                </div>
+                <button type="button" id="prefillDemo" class="text-white/70 hover:text-white transition font-bold">Demo fill</button>
+              </div>
+
+              <div id="formTopMsg" class="hidden mt-2 text-sm rounded-2xl px-4 py-3 border"></div>
+            </form>
+          </div>
+        </div>
+
+        <div class="mt-4 grid grid-cols-2 gap-3 reveal">
+          <div class="glass rounded-2xl p-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center">
+                <i class="fas fa-check-circle text-aqua"></i>
+              </div>
+              <div>
+                <div class="text-white/90 font-extrabold text-sm">All-inclusive ready</div>
+                <div class="text-white/60 text-xs">Setup + cleanup options</div>
+              </div>
+            </div>
+          </div>
+          <div class="glass rounded-2xl p-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center">
+                <i class="fas fa-star text-gold"></i>
+              </div>
+              <div>
+                <div class="text-white/90 font-extrabold text-sm">Premium experience</div>
+                <div class="text-white/60 text-xs">High-end vibe, always</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16">
+    <div class="glass rounded-3xl p-6 sm:p-8 reveal">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        <div>
+          <div class="text-white/90 font-extrabold tracking-tight text-xl">The “Wow” Checklist</div>
+          <div class="text-white/65 mt-1 max-w-2xl">Everything you need for a stylish private pool birthday party — no distractions, no shared space, no stress.</div>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-sm font-bold text-white/85"><i class="fas fa-user-shield text-aqua mr-2"></i>On-site support</span>
+          <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-sm font-bold text-white/85"><i class="fas fa-tint text-violet mr-2"></i>Crystal-clear water</span>
+          <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-sm font-bold text-white/85"><i class="fas fa-couch text-gold mr-2"></i>Lounge seating</span>
+        </div>
+      </div>
+
+      <div class="divider my-6"></div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="rounded-3xl p-5 bg-white/5 border border-white/10 hover:bg-white/7 transition">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-aqua/25 to-violet/20 border border-white/10 flex items-center justify-center">
+            <i class="fas fa-lock text-white/80"></i>
+          </div>
+          <div class="mt-3 text-white/90 font-extrabold">Exclusive Access</div>
+          <div class="mt-1 text-white/65 text-sm leading-relaxed">You get the entire venue. Your guests only.</div>
+        </div>
+        <div class="rounded-3xl p-5 bg-white/5 border border-white/10 hover:bg-white/7 transition">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-violet/25 to-gold/20 border border-white/10 flex items-center justify-center">
+            <i class="fas fa-magic text-white/80"></i>
+          </div>
+          <div class="mt-3 text-white/90 font-extrabold">High-End Ambience</div>
+          <div class="mt-1 text-white/65 text-sm leading-relaxed">Luxury vibe with lighting, space, and comfort.</div>
+        </div>
+        <div class="rounded-3xl p-5 bg-white/5 border border-white/10 hover:bg-white/7 transition">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-gold/25 to-aqua/20 border border-white/10 flex items-center justify-center">
+            <i class="fas fa-swimmer text-white/80"></i>
+          </div>
+          <div class="mt-3 text-white/90 font-extrabold">Pool-Party Ready</div>
+          <div class="mt-1 text-white/65 text-sm leading-relaxed">Clean water, safety-first flow, clear rules.</div>
+        </div>
+        <div class="rounded-3xl p-5 bg-white/5 border border-white/10 hover:bg-white/7 transition">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-aqua/25 to-gold/20 border border-white/10 flex items-center justify-center">
+            <i class="fas fa-bullseye text-white/80"></i>
+          </div>
+          <div class="mt-3 text-white/90 font-extrabold">Easy Booking</div>
+          <div class="mt-1 text-white/65 text-sm leading-relaxed">Fast confirmation and simple packages.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-14 sm:pb-18">
+  <div class="flex items-end justify-between gap-6 reveal">
+    <div>
+      <div class="text-white/60 font-bold text-xs tracking-[.22em] uppercase">Gallery</div>
+      <h2 class="mt-2 text-3xl sm:text-4xl font-serif text-white/95">Designed for jaw-drop moments</h2>
+      <p class="mt-3 text-white/65 max-w-2xl">Luxury pool vibes, lounge comfort, and photo-ready lighting — perfect for birthdays that feel like a premium getaway.</p>
+    </div>
+    <div class="hidden sm:flex items-center gap-2 text-white/60 text-sm">
+      <i class="fas fa-hand-pointer"></i>
+      <span>Swipe / scroll</span>
+    </div>
+  </div>
+
+  <div class="mt-7 reveal">
+    <div class="flex gap-4 overflow-x-auto pb-2 scrollbar-hide">
+      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+        <img src="pool01.png" alt="High-end private swimming pool at night with elegant warm lighting, shimmering water reflections, luxury lounge chairs, and modern minimalist landscaping" class="w-full h-56 sm:h-64 object-cover">
+        <div class="p-5">
+          <div class="text-white/90 font-extrabold">Night Glow</div>
+          <div class="text-white/65 text-sm mt-1">A premium vibe for unforgettable photos.</div>
+        </div>
+      </div>
+      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+        <img src="pool02.png" alt="Sunny private pool party setup with stylish cabanas, clean white towels, floating decorations, and a modern patio seating area for birthdays" class="w-full h-56 sm:h-64 object-cover">
+        <div class="p-5">
+          <div class="text-white/90 font-extrabold">Day Luxe</div>
+          <div class="text-white/65 text-sm mt-1">Bright, clean, and celebration-ready.</div>
+        </div>
+      </div>
+      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+        <img src="pool03.png" alt="Premium outdoor lounge zone next to a private pool with modern sofas, accent pillows, string lights, and a chic birthday party table setting" class="w-full h-56 sm:h-64 object-cover">
+        <div class="p-5">
+          <div class="text-white/90 font-extrabold">Lounge Zone</div>
+          <div class="text-white/65 text-sm mt-1">Comfort seating + stylish ambience.</div>
+        </div>
+      </div>
+      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+        <img src="pool04.png" alt="BBQ and dining area near a private swimming pool with modern grill station, long table for guests, and warm ambient lighting for a birthday party" class="w-full h-56 sm:h-64 object-cover">
+        <div class="p-5">
+          <div class="text-white/90 font-extrabold">BBQ & Dining</div>
+          <div class="text-white/65 text-sm mt-1">Food-friendly flow for happy guests.</div>
+        </div>
+      </div>
+      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+        <img src="hpool05.png" alt="Changing rooms and shower area at a private pool venue with clean modern design, soft lighting, and spa-like details" class="w-full h-56 sm:h-64 object-cover">
+        <div class="p-5">
+          <div class="text-white/90 font-extrabold">Comfort Amenities</div>
+          <div class="text-white/65 text-sm mt-1">Showers & changing rooms included.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="packages" class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-14 sm:pb-18">
+  <div class="glass rounded-[2rem] p-6 sm:p-8 reveal">
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+      <div>
+        <div class="text-white/60 font-bold text-xs tracking-[.22em] uppercase">Packages</div>
+        <h2 class="mt-2 text-3xl sm:text-4xl font-serif text-white/95">Choose your vibe</h2>
+        <p class="mt-3 text-white/65 max-w-2xl">Simple, premium packages built for conversions: clear value, fast booking, zero confusion.</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-xs font-bold text-white/80"><i class="fas fa-clock text-aqua mr-2"></i>3–5 hour options</span>
+        <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-xs font-bold text-white/80"><i class="fas fa-gift text-gold mr-2"></i>Add-ons available</span>
+      </div>
+    </div>
+
+    <div class="divider my-7"></div>
+
+    <div class="grid lg:grid-cols-3 gap-4">
+      <div class="rounded-[1.75rem] bg-white/5 border border-white/10 p-6 hover:bg-white/7 transition reveal">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <div class="text-white/90 font-extrabold text-lg">Essentials</div>
+            <div class="text-white/60 text-sm mt-1">Perfect for cozy celebrations</div>
+          </div>
+          <div class="px-3 py-1.5 rounded-full bg-black/30 border border-white/10 text-xs font-bold text-white/70">Most affordable</div>
+        </div>
+        <div class="mt-5 flex items-baseline gap-2">
+          <div class="text-3xl font-extrabold text-white/95">$___</div>
+          <div class="text-sm font-bold text-white/55">starting</div>
+        </div>
+        <div class="mt-4 space-y-2 text-sm text-white/75">
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Private pool access</span></div>
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Tables & seating</span></div>
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Basic music connection</span></div>
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Changing & showers</span></div>
+        </div>
+        <button data-scroll="#book" class="mt-5 w-full btn-shine inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/6 hover:bg-white/10 border border-white/12 text-white/90 font-extrabold transition">
+          <i class="fas fa-arrow-right text-gold"></i>
+          <span>Select Essentials</span>
+        </button>
+      </div>
+
+      <div class="rounded-[1.75rem] p-6 reveal relative overflow-hidden ringline">
+        <div class="absolute inset-0 glass-strong rounded-[1.75rem]"></div>
+        <div class="absolute -top-10 -right-10 w-44 h-44 rounded-full blob" style="background: radial-gradient(circle at 35% 35%, rgba(62,231,209,.30), transparent 64%);"></div>
+        <div class="absolute -bottom-12 -left-12 w-52 h-52 rounded-full blob" style="background: radial-gradient(circle at 35% 35%, rgba(139,92,246,.26), transparent 64%);"></div>
+
+        <div class="relative">
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <div class="text-white/95 font-extrabold text-lg">Signature</div>
+              <div class="text-white/65 text-sm mt-1">The best “wow per dollar”</div>
+            </div>
+            <div class="px-3 py-1.5 rounded-full bg-gradient-to-r from-aqua/30 via-violet/25 to-gold/25 border border-white/12 text-xs font-extrabold text-white/80">
+              <i class="fas fa-crown text-gold mr-1"></i> Most Popular
+            </div>
+          </div>
+
+          <div class="mt-5 flex items-baseline gap-2">
+            <div class="text-3xl font-extrabold text-white">$___</div>
+            <div class="text-sm font-bold text-white/60">starting</div>
+          </div>
+
+          <div class="mt-4 space-y-2 text-sm text-white/78">
+            <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Private pool + full lounge zone</span></div>
+            <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Sound system included</span></div>
+            <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>BBQ area access</span></div>
+            <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Staff support during party</span></div>
+            <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Enhanced cleanup option</span></div>
+          </div>
+
+          <button data-scroll="#book" class="mt-5 w-full btn-shine inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+            <i class="fas fa-bolt"></i>
+            <span>Select Signature</span>
+          </button>
+
+          <div class="mt-4 text-xs text-white/60 flex items-center justify-center gap-2">
+            <i class="fas fa-calendar-alt text-white/50"></i>
+            <span>Prime dates go fast — request now</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-[1.75rem] bg-white/5 border border-white/10 p-6 hover:bg-white/7 transition reveal">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <div class="text-white/90 font-extrabold text-lg">Luxury</div>
+            <div class="text-white/60 text-sm mt-1">Full premium experience</div>
+          </div>
+          <div class="px-3 py-1.5 rounded-full bg-black/30 border border-white/10 text-xs font-bold text-white/70">Best for 30+</div>
+        </div>
+        <div class="mt-5 flex items-baseline gap-2">
+          <div class="text-3xl font-extrabold text-white/95">$___</div>
+          <div class="text-sm font-bold text-white/55">starting</div>
+        </div>
+        <div class="mt-4 space-y-2 text-sm text-white/75">
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Everything in Signature</span></div>
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Premium decor option</span></div>
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Upgraded seating + lighting</span></div>
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Host support + concierge flow</span></div>
+          <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>VIP add-ons available</span></div>
+        </div>
+        <button data-scroll="#book" class="mt-5 w-full btn-shine inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/6 hover:bg-white/10 border border-white/12 text-white/90 font-extrabold transition">
+          <i class="fas fa-gem text-gold"></i>
+          <span>Select Luxury</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="divider my-7"></div>
+
+    <div class="grid lg:grid-cols-12 gap-4 reveal">
+      <div class="lg:col-span-8 rounded-3xl bg-white/5 border border-white/10 p-6">
+        <div class="flex items-start gap-4">
+          <div class="w-11 h-11 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center">
+            <i class="fas fa-plus text-gold"></i>
+          </div>
+          <div>
+            <div class="text-white/90 font-extrabold">Popular Add-ons</div>
+            <div class="text-white/65 text-sm mt-1">Upgrade the experience without extra planning.</div>
+            <div class="mt-4 grid sm:grid-cols-2 gap-2 text-sm text-white/75">
+              <div class="flex items-center justify-between px-4 py-3 rounded-2xl bg-black/20 border border-white/10">
+                <span class="font-bold">Premium decor</span>
+                <span class="text-white/55 font-extrabold">+$___</span>
+              </div>
+              <div class="flex items-center justify-between px-4 py-3 rounded-2xl bg-black/20 border border-white/10">
+                <span class="font-bold">BBQ kit / grill setup</span>
+                <span class="text-white/55 font-extrabold">+$___</span>
+              </div>
+              <div class="flex items-center justify-between px-4 py-3 rounded-2xl bg-black/20 border border-white/10">
+                <span class="font-bold">Extra hour</span>
+                <span class="text-white/55 font-extrabold">+$___</span>
+              </div>
+              <div class="flex items-center justify-between px-4 py-3 rounded-2xl bg-black/20 border border-white/10">
+                <span class="font-bold">Party host support</span>
+                <span class="text-white/55 font-extrabold">+$___</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-4 rounded-3xl bg-gradient-to-br from-aqua/10 via-violet/10 to-gold/10 border border-white/12 p-6">
+        <div class="text-white/90 font-extrabold">Limited weekends</div>
+        <div class="text-white/65 text-sm mt-1">Summer dates fill quickly. Request your date now.</div>
+        <div class="mt-4 flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-black/20 border border-white/10 flex items-center justify-center">
+            <i class="fas fa-hourglass-half text-aqua"></i>
+          </div>
+          <div>
+            <div class="text-white/90 font-extrabold"><span data-counter="7">0</span>–<span data-counter="14">0</span> days</div>
+            <div class="text-white/60 text-xs font-bold">average booking lead time</div>
+          </div>
+        </div>
+        <button data-scroll="#book" class="mt-5 w-full btn-shine inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/7 hover:bg-white/10 border border-white/12 text-white/90 font-extrabold transition">
+          <i class="fas fa-calendar-plus text-gold"></i>
+          <span>Request a Date</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="reviews" class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-14 sm:pb-18">
+  <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-6 reveal">
+    <div>
+      <div class="text-white/60 font-bold text-xs tracking-[.22em] uppercase">Reviews</div>
+      <h2 class="mt-2 text-3xl sm:text-4xl font-serif text-white/95">Loved by hosts (and guests)</h2>
+      <p class="mt-3 text-white/65 max-w-2xl">Social proof that closes the deal. Swap these with real reviews for maximum conversion lift.</p>
+    </div>
+    <div class="flex items-center gap-2 text-sm text-white/70">
+      <div class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10"><i class="fas fa-star text-gold mr-2"></i><span class="font-extrabold">4.9</span><span class="text-white/60 font-bold"> / 5</span></div>
+      <div class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10"><i class="fas fa-users text-aqua mr-2"></i><span class="font-extrabold">120+</span><span class="text-white/60 font-bold"> parties</span></div>
+    </div>
+  </div>
+
+  <div class="mt-7 grid lg:grid-cols-3 gap-4">
+    <div class="glass rounded-3xl p-6 reveal">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1 text-gold">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <div class="text-xs text-white/55 font-bold">Kids Birthday</div>
+      </div>
+      <div class="mt-4 text-white/85 font-semibold leading-relaxed">“Absolutely private, super clean, and the kids had the best time. The lounge area made it feel like a luxury resort.”</div>
+      <div class="mt-5 flex items-center gap-3">
+        <img src="https://placehold.co/96x96/png" alt="Smiling parent portrait avatar for testimonial, modern soft lighting" class="w-10 h-10 rounded-2xl object-cover border border-white/10">
+        <div class="leading-tight">
+          <div class="text-white/90 font-extrabold text-sm">Jordan M.</div>
+          <div class="text-white/55 text-xs font-bold">Verified booking</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass rounded-3xl p-6 reveal">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1 text-gold">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <div class="text-xs text-white/55 font-bold">Adult Birthday</div>
+      </div>
+      <div class="mt-4 text-white/85 font-semibold leading-relaxed">“The vibe was insane at night. Lighting, music, pool reflections… everyone asked where we found this place.”</div>
+      <div class="mt-5 flex items-center gap-3">
+        <img src="https://placehold.co/96x96/png" alt="Stylish adult portrait avatar for testimonial, luxury event aesthetic" class="w-10 h-10 rounded-2xl object-cover border border-white/10">
+        <div class="leading-tight">
+          <div class="text-white/90 font-extrabold text-sm">Sam K.</div>
+          <div class="text-white/55 text-xs font-bold">Verified booking</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass rounded-3xl p-6 reveal">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1 text-gold">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <div class="text-xs text-white/55 font-bold">Teen Birthday</div>
+      </div>
+      <div class="mt-4 text-white/85 font-semibold leading-relaxed">“Booking was fast and smooth. The place looked exactly like the photos, and we had total privacy.”</div>
+      <div class="mt-5 flex items-center gap-3">
+        <img src="https://placehold.co/96x96/png" alt="Teen birthday host portrait avatar for testimonial, bright friendly vibe" class="w-10 h-10 rounded-2xl object-cover border border-white/10">
+        <div class="leading-tight">
+          <div class="text-white/90 font-extrabold text-sm">Avery L.</div>
+          <div class="text-white/55 text-xs font-bold">Verified booking</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-8 reveal">
+    <div class="glass rounded-3xl p-6 sm:p-7">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        <div>
+          <div class="text-white/90 font-extrabold text-lg">Want your party to look like this?</div>
+          <div class="text-white/65 text-sm mt-1">Send your date + guest count — we’ll confirm availability and pricing.</div>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3">
+          <button data-scroll="#book" class="btn-shine inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+            <i class="fas fa-calendar-check"></i>
+            <span>Check Dates</span>
+          </button>
+          <a id="callMid" href="tel:+10000000000" class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/6 hover:bg-white/10 border border-white/12 text-white/90 font-extrabold transition">
+            <i class="fas fa-phone-alt text-gold"></i>
+            <span>Call Now</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-14 sm:pb-18">
+  <div class="grid lg:grid-cols-12 gap-4 reveal">
+    <div class="lg:col-span-7 glass rounded-3xl p-6 sm:p-8">
+      <div class="text-white/60 font-bold text-xs tracking-[.22em] uppercase">How it works</div>
+      <h2 class="mt-2 text-3xl sm:text-4xl font-serif text-white/95">Book in 3 steps</h2>
+
+      <div class="mt-6 space-y-3">
+        <div class="flex gap-4 p-4 rounded-3xl bg-white/5 border border-white/10">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-aqua/25 to-violet/20 border border-white/10 flex items-center justify-center font-extrabold text-white/85">1</div>
+          <div>
+            <div class="text-white/90 font-extrabold">Send your date + guests</div>
+            <div class="text-white/65 text-sm mt-1">We verify availability and recommend the best package.</div>
+          </div>
+        </div>
+        <div class="flex gap-4 p-4 rounded-3xl bg-white/5 border border-white/10">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-violet/25 to-gold/20 border border-white/10 flex items-center justify-center font-extrabold text-white/85">2</div>
+          <div>
+            <div class="text-white/90 font-extrabold">Confirm details</div>
+            <div class="text-white/65 text-sm mt-1">Timing, add-ons, and any special requests.</div>
+          </div>
+        </div>
+        <div class="flex gap-4 p-4 rounded-3xl bg-white/5 border border-white/10">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-gold/25 to-aqua/20 border border-white/10 flex items-center justify-center font-extrabold text-white/85">3</div>
+          <div>
+            <div class="text-white/90 font-extrabold">Celebrate</div>
+            <div class="text-white/65 text-sm mt-1">Private, premium, photo-ready. Your party, elevated.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider my-7"></div>
+
+      <div class="grid sm:grid-cols-3 gap-3">
+        <div class="rounded-3xl p-4 bg-black/20 border border-white/10">
+          <div class="text-white/90 font-extrabold">Safety first</div>
+          <div class="text-white/60 text-xs mt-1 font-bold">Clear rules + clean space</div>
+        </div>
+        <div class="rounded-3xl p-4 bg-black/20 border border-white/10">
+          <div class="text-white/90 font-extrabold">Fast response</div>
+          <div class="text-white/60 text-xs mt-1 font-bold">Confirm quickly</div>
+        </div>
+        <div class="rounded-3xl p-4 bg-black/20 border border-white/10">
+          <div class="text-white/90 font-extrabold">Private vibe</div>
+          <div class="text-white/60 text-xs mt-1 font-bold">No shared guests</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lg:col-span-5 glass-strong rounded-3xl p-6 sm:p-8 relative overflow-hidden">
+      <div class="absolute -top-16 -right-10 w-56 h-56 rounded-full blob" style="background: radial-gradient(circle at 35% 35%, rgba(62,231,209,.26), transparent 65%);"></div>
+      <div class="absolute -bottom-20 -left-10 w-64 h-64 rounded-full blob" style="background: radial-gradient(circle at 35% 35%, rgba(217,180,109,.22), transparent 65%);"></div>
+
+      <div class="relative">
+        <div class="text-white/60 font-bold text-xs tracking-[.22em] uppercase">FAQ</div>
+        <h3 class="mt-2 text-2xl sm:text-3xl font-serif text-white/95">Quick answers</h3>
+
+        <div class="mt-5 space-y-3">
+          <details class="group rounded-3xl bg-white/5 border border-white/10 p-4 open:bg-white/7 transition">
+            <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+              <div class="text-white/90 font-extrabold">Is it completely private?</div>
+              <i class="fas fa-chevron-down text-white/60 group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-2 text-white/70 text-sm leading-relaxed">Yes — the venue is reserved exclusively for your booking window. No shared guests, no public access.</div>
+          </details>
+
+          <details class="group rounded-3xl bg-white/5 border border-white/10 p-4 open:bg-white/7 transition">
+            <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+              <div class="text-white/90 font-extrabold">Can we bring our own food & cake?</div>
+              <i class="fas fa-chevron-down text-white/60 group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-2 text-white/70 text-sm leading-relaxed">Typically yes. You can also add BBQ / grill options if you want a smoother setup.</div>
+          </details>
+
+          <details class="group rounded-3xl bg-white/5 border border-white/10 p-4 open:bg-white/7 transition">
+            <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+              <div class="text-white/90 font-extrabold">What about music?</div>
+              <i class="fas fa-chevron-down text-white/60 group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-2 text-white/70 text-sm leading-relaxed">We have a sound system option in select packages. You can connect your playlist for the perfect vibe.</div>
+          </details>
+
+          <details class="group rounded-3xl bg-white/5 border border-white/10 p-4 open:bg-white/7 transition">
+            <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+              <div class="text-white/90 font-extrabold">How fast do you confirm?</div>
+              <i class="fas fa-chevron-down text-white/60 group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-2 text-white/70 text-sm leading-relaxed">We aim to reply quickly — often within minutes during business hours. Submit the form to start.</div>
+          </details>
+        </div>
+
+        <button data-scroll="#book" class="mt-6 w-full btn-shine inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+          <i class="fas fa-paper-plane"></i>
+          <span>Request Availability</span>
+        </button>
+
+        <div class="mt-4 text-xs text-white/60 font-bold flex items-center justify-center gap-2">
+          <i class="fas fa-check text-aqua"></i>
+          <span>Quick reply • No obligation • Transparent quote</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20 sm:pb-24">
+  <div class="glass rounded-[2rem] p-6 sm:p-8 reveal">
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+      <div>
+        <div class="text-white/60 font-bold text-xs tracking-[.22em] uppercase">Book now</div>
+        <h2 class="mt-2 text-3xl sm:text-4xl font-serif text-white/95">Get your private pool birthday quote</h2>
+        <p class="mt-3 text-white/65 max-w-2xl">High-intent traffic deserves a frictionless form. This is built to convert.</p>
+      </div>
+
+      <div class="flex flex-wrap gap-2">
+        <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-xs font-bold text-white/80"><i class="fas fa-mobile-alt text-aqua mr-2"></i>Mobile-first</span>
+        <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-xs font-bold text-white/80"><i class="fas fa-bolt text-gold mr-2"></i>Fast load</span>
+        <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-xs font-bold text-white/80"><i class="fas fa-lock text-white/70 mr-2"></i>Private</span>
+      </div>
+    </div>
+
+    <div class="divider my-7"></div>
+
+    <div class="grid lg:grid-cols-12 gap-6">
+      <div class="lg:col-span-7">
+        <form id="leadForm" class="space-y-3">
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label class="text-xs font-semibold text-white/70">Name</label>
+              <input required name="name" class="mt-1 w-full input rounded-2xl px-4 py-3" placeholder="Your name" />
+            </div>
+            <div>
+              <label class="text-xs font-semibold text-white/70">Phone</label>
+              <input required name="phone" inputmode="tel" class="mt-1 w-full input rounded-2xl px-4 py-3" placeholder="(000) 000-0000" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label class="text-xs font-semibold text-white/70">Email (optional)</label>
+              <input name="email" type="email" class="mt-1 w-full input rounded-2xl px-4 py-3" placeholder="you@email.com" />
+            </div>
+            <div>
+              <label class="text-xs font-semibold text-white/70">Preferred date</label>
+              <input required type="date" name="date" class="mt-1 w-full input rounded-2xl px-4 py-3" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-3">
+            <div>
+              <label class="text-xs font-semibold text-white/70">Guests</label>
+              <select required name="guests" class="mt-1 w-full input rounded-2xl px-4 py-3">
+                <option value="" selected disabled>Choose</option>
+                <option>Up to 10</option>
+                <option>11–20</option>
+                <option>21–30</option>
+                <option>31–40</option>
+                <option>40+</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-xs font-semibold text-white/70">Duration</label>
+              <select required name="duration" class="mt-1 w-full input rounded-2xl px-4 py-3">
+                <option value="" selected disabled>Choose</option>
+                <option>3 hours</option>
+                <option>4 hours</option>
+                <option>5 hours</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-xs font-semibold text-white/70">Time</label>
+              <select required name="time" class="mt-1 w-full input rounded-2xl px-4 py-3">
+                <option value="" selected disabled>Choose</option>
+                <option>Daytime</option>
+                <option>Evening / Night</option>
+                <option>Flexible</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="text-xs font-semibold text-white/70">Package preference</label>
+            <div class="mt-2 grid sm:grid-cols-3 gap-2">
+              <button type="button" data-pkg="Essentials" class="pkg px-4 py-3 rounded-2xl bg-white/5 border border-white/10 text-white/85 text-sm font-extrabold hover:bg-white/10 transition">Essentials</button>
+              <button type="button" data-pkg="Signature" class="pkg px-4 py-3 rounded-2xl bg-gradient-to-r from-aqua/15 via-violet/12 to-gold/12 border border-white/14 text-white/90 text-sm font-extrabold hover:bg-white/10 transition">Signature</button>
+              <button type="button" data-pkg="Luxury" class="pkg px-4 py-3 rounded-2xl bg-white/5 border border-white/10 text-white/85 text-sm font-extrabold hover:bg-white/10 transition">Luxury</button>
+            </div>
+            <input type="hidden" name="package" value="Signature" />
+          </div>
+
+          <div>
+            <label class="text-xs font-semibold text-white/70">Add-ons (optional)</label>
+            <div class="mt-2 grid sm:grid-cols-2 gap-2">
+              <label class="flex items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/8 transition cursor-pointer">
+                <span class="text-white/85 font-bold text-sm"><i class="fas fa-palette text-gold mr-2"></i>Premium decor</span>
+                <input type="checkbox" name="addons" value="Premium decor" class="accent-[color:rgb(62,231,209)] w-4 h-4">
+              </label>
+              <label class="flex items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/8 transition cursor-pointer">
+                <span class="text-white/85 font-bold text-sm"><i class="fas fa-bbq text-gold mr-2"></i>BBQ / grill setup</span>
+                <input type="checkbox" name="addons" value="BBQ / grill setup" class="accent-[color:rgb(62,231,209)] w-4 h-4">
+              </label>
+              <label class="flex items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/8 transition cursor-pointer">
+                <span class="text-white/85 font-bold text-sm"><i class="fas fa-clock text-gold mr-2"></i>Extra hour</span>
+                <input type="checkbox" name="addons" value="Extra hour" class="accent-[color:rgb(62,231,209)] w-4 h-4">
+              </label>
+              <label class="flex items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/8 transition cursor-pointer">
+                <span class="text-white/85 font-bold text-sm"><i class="fas fa-user-tie text-gold mr-2"></i>Party host support</span>
+                <input type="checkbox" name="addons" value="Party host support" class="accent-[color:rgb(62,231,209)] w-4 h-4">
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <label class="text-xs font-semibold text-white/70">Notes (optional)</label>
+            <textarea name="notes" rows="4" class="mt-1 w-full input rounded-2xl px-4 py-3" placeholder="Tell us what you want: theme, age, vibe, music, food, special needs…"></textarea>
+          </div>
+
+          <button type="submit" class="btn-shine w-full inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+            <i class="fas fa-sparkles"></i>
+            <span>Get My Quote</span>
+          </button>
+
+          <div id="formMsg" class="hidden mt-2 text-sm rounded-2xl px-4 py-3 border"></div>
+
+          <div class="text-xs text-white/55 font-bold flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div class="flex items-center gap-2">
+              <i class="fas fa-lock text-white/50"></i>
+              <span>Your details are only used to respond to your request.</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-phone-alt text-gold"></i>
+              <a href="tel:+10000000000" class="text-white/75 hover:text-white transition">Prefer calling? Tap to call</a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="lg:col-span-5 space-y-4">
+        <div class="glass rounded-3xl overflow-hidden reveal">
+          <div class="relative">
+            <img src="https://placehold.co/1200x760/png" alt="Luxury private pool venue wide shot with modern design, clean water, ambient lighting, lounge seating, and a premium party atmosphere" class="w-full h-56 object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/25 to-transparent"></div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <div class="flex items-center justify-between gap-3">
+                <div class="px-3 py-2 rounded-2xl bg-black/35 border border-white/10 text-white/85 text-sm font-extrabold">
+                  <i class="fas fa-map-marker-alt text-aqua mr-2"></i>
+                  <span>Venue location</span>
+                  <span class="text-white/55 font-bold">• add city</span>
+                </div>
+                <div class="px-3 py-2 rounded-2xl bg-black/35 border border-white/10 text-white/85 text-sm font-extrabold">
+                  <i class="fas fa-clock text-gold mr-2"></i>
+                  <span>Open</span>
+                  <span class="text-white/55 font-bold">• by booking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="text-white/90 font-extrabold">What you get</div>
+            <div class="mt-3 grid gap-2 text-sm text-white/75">
+              <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Exclusive pool venue (your booking only)</span></div>
+              <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Lounge seating, tables, and party flow</span></div>
+              <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Changing rooms + showers</span></div>
+              <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Optional sound system & BBQ area</span></div>
+              <div class="flex items-start gap-2"><i class="fas fa-check text-aqua mt-1"></i><span>Friendly support for a smooth event</span></div>
+            </div>
+
+            <div class="divider my-5"></div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div class="rounded-3xl p-4 bg-white/5 border border-white/10">
+                <div class="text-white/90 font-extrabold"><i class="fas fa-user-friends text-gold mr-2"></i>Great for</div>
+                <div class="mt-1 text-white/65 text-xs font-bold">Kids • Teens • Adults</div>
+              </div>
+              <div class="rounded-3xl p-4 bg-white/5 border border-white/10">
+                <div class="text-white/90 font-extrabold"><i class="fas fa-camera text-aqua mr-2"></i>Photo-ready</div>
+                <div class="mt-1 text-white/65 text-xs font-bold">Day + night vibes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass rounded-3xl p-6 reveal">
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-aqua/25 via-violet/18 to-gold/18 border border-white/10 flex items-center justify-center">
+              <i class="fas fa-shield-alt text-white/85"></i>
+            </div>
+            <div>
+              <div class="text-white/90 font-extrabold">Booking confidence</div>
+              <div class="text-white/65 text-sm mt-1">Clear communication, premium cleanliness, and a smooth arrival-to-exit experience.</div>
+              <div class="mt-4 grid grid-cols-3 gap-2 text-xs font-bold">
+                <div class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-white/75 text-center">Fast reply</div>
+                <div class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-white/75 text-center">Private</div>
+                <div class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10 text-white/75 text-center">Premium</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="relative pb-24 sm:pb-10">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="glass rounded-3xl p-6 sm:p-8 reveal">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        <div>
+          <div class="text-white/90 font-extrabold tracking-tight text-lg">Private Pool Party Venue</div>
+          <div class="mt-1 text-white/60 text-sm">Exclusive rentals for unforgettable birthday celebrations.</div>
+          <div class="mt-4 flex flex-wrap items-center gap-2 text-xs font-bold text-white/65">
+            <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10"><i class="fas fa-map-marker-alt text-aqua mr-2"></i>Add your city</span>
+            <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10"><i class="fas fa-envelope text-gold mr-2"></i>hello@yourvenue.com</span>
+            <span class="px-3 py-2 rounded-2xl bg-white/5 border border-white/10"><i class="fas fa-phone-alt text-violet mr-2"></i>+1 (000) 000-0000</span>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="tel:+10000000000" class="btn-shine inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/6 hover:bg-white/10 border border-white/12 text-white/90 font-extrabold transition">
+            <i class="fas fa-phone-alt text-gold"></i>
+            <span>Call to Book</span>
+          </a>
+          <button data-scroll="#book" class="btn-shine inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+            <i class="fas fa-calendar-check"></i>
+            <span>Request a Quote</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="divider my-6"></div>
+
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-white/55 font-bold">
+        <div>© <span id="year"></span> Private Pool Party Venue. All rights reserved.</div>
+        <div class="flex items-center gap-4">
+          <a href="#" class="hover:text-white/80 transition">Privacy</a>
+          <a href="#" class="hover:text-white/80 transition">Terms</a>
+          <a href="#" class="hover:text-white/80 transition">Refunds</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="fixed bottom-0 left-0 right-0 z-50 sm:hidden">
+  <div class="px-3 pb-3">
+    <div class="glass-strong rounded-2xl p-3 flex items-center gap-2 border border-white/12">
+      <a href="tel:+10000000000" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-2xl bg-white/6 border border-white/12 text-white/90 font-extrabold">
+        <i class="fas fa-phone-alt text-gold"></i>
+        <span>Call</span>
+      </a>
+      <button data-scroll="#book" class="flex-[1.25] btn-shine inline-flex items-center justify-center gap-2 px-4 py-3 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight">
+        <i class="fas fa-bolt"></i>
+        <span>Quote</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div id="tourModal" class="hidden fixed inset-0 z-[60]">
+  <div class="absolute inset-0 bg-black/70"></div>
+  <div class="absolute inset-0 flex items-center justify-center p-4">
+    <div class="glass-strong w-full max-w-3xl rounded-3xl overflow-hidden border border-white/12 shadow-soft">
+      <div class="flex items-center justify-between p-4 sm:p-5 border-b border-white/10">
+        <div class="text-white/90 font-extrabold">30s Venue Tour</div>
+        <button id="closeTour" class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 text-white/80 hover:bg-white/10 transition">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="p-4 sm:p-6">
+        <div class="rounded-3xl overflow-hidden border border-white/10 bg-black/30">
+          <div class="relative aspect-video">
+            <img src="https://placehold.co/1400x788/png" alt="Video tour placeholder for the private pool party venue, cinematic luxury pool shot with lighting and lounge area" class="absolute inset-0 w-full h-full object-cover opacity-70">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/25 to-transparent"></div>
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
+              <div class="w-16 h-16 rounded-3xl bg-white/10 border border-white/14 flex items-center justify-center">
+                <i class="fas fa-play text-gold text-xl"></i>
+              </div>
+              <div class="mt-4 text-white/90 font-extrabold text-lg">Swap this image for your real tour video</div>
+              <div class="mt-1 text-white/65 text-sm max-w-xl">For best performance, use a short compressed MP4 or a lightweight embed.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 flex flex-col sm:flex-row gap-3">
+          <button data-scroll="#book" id="tourCTA" class="btn-shine flex-1 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-gradient-to-r from-aqua/95 via-violet/90 to-gold/90 text-black font-extrabold tracking-tight glow">
+            <i class="fas fa-calendar-check"></i>
+            <span>Request Availability</span>
+          </button>
+          <button id="closeTour2" class="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/6 hover:bg-white/10 border border-white/12 text-white/90 font-extrabold transition">
+            <i class="fas fa-times text-gold"></i>
+            <span>Close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="confettiLayer" class="pointer-events-none fixed inset-0 z-[70] hidden"></div>
+```
+
+  </main>
+
+  <script>
+    const $ = (sel, parent=document) => parent.querySelector(sel);
+    const $$ = (sel, parent=document) => Array.from(parent.querySelectorAll(sel));
+
+    const now = new Date();
+    $("#year").textContent = now.getFullYear();
+
+    const iso = (d) => {
+      const z = new Date(d.getTime() - d.getTimezoneOffset() * 60000);
+      return z.toISOString().slice(0,10);
+    };
+
+    $$('input[type="date"]').forEach(inp => inp.min = iso(new Date()));
+
+    $$("[data-scroll]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const target = btn.getAttribute("data-scroll");
+        const el = document.querySelector(target);
+        if (!el) return;
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add("show");
+          revealObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    $$(".reveal").forEach(el => revealObs.observe(el));
+
+    const counterObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        const el = e.target;
+        const end = parseInt(el.getAttribute("data-counter") || "0", 10);
+        const start = 0;
+        const duration = 900;
+        const t0 = performance.now();
+        const step = (t) => {
+          const p = Math.min(1, (t - t0) / duration);
+          const eased = 1 - Math.pow(1 - p, 3);
+          const val = Math.round(start + (end - start) * eased);
+          el.textContent = val.toString();
+          if (p < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+        counterObs.unobserve(el);
+      });
+    }, { threshold: 0.6 });
+
+    $$("[data-counter]").forEach(el => counterObs.observe(el));
+
+    const setupTilt = (card) => {
+      const inner = card.querySelector(".tilt-inner") || card;
+      const max = 9;
+      let raf = 0;
+
+      const move = (ev) => {
+        const rect = card.getBoundingClientRect();
+        const x = (ev.clientX - rect.left) / rect.width;
+        const y = (ev.clientY - rect.top) / rect.height;
+        const rx = (y - 0.5) * -max;
+        const ry = (x - 0.5) * max;
+
+        cancelAnimationFrame(raf);
+        raf = requestAnimationFrame(() => {
+          inner.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg) translateZ(0)`;
+        });
+      };
+
+      const leave = () => {
+        cancelAnimationFrame(raf);
+        inner.style.transform = "rotateX(0deg) rotateY(0deg) translateZ(0)";
+      };
+
+      card.addEventListener("mousemove", move);
+      card.addEventListener("mouseleave", leave);
+    };
+
+    $$(".tilt").forEach(setupTilt);
+
+    const openTour = () => {
+      $("#tourModal").classList.remove("hidden");
+      document.documentElement.style.overflow = "hidden";
+    };
+    const closeTour = () => {
+      $("#tourModal").classList.add("hidden");
+      document.documentElement.style.overflow = "";
+    };
+    $("#openTour").addEventListener("click", openTour);
+    $("#closeTour").addEventListener("click", closeTour);
+    $("#closeTour2").addEventListener("click", closeTour);
+    $("#tourModal").addEventListener("click", (e) => {
+      if (e.target === $("#tourModal") || e.target === $("#tourModal").firstElementChild) closeTour();
+    });
+    $("#tourCTA").addEventListener("click", () => {
+      closeTour();
+      setTimeout(() => document.querySelector("#book").scrollIntoView({ behavior: "smooth", block: "start" }), 60);
+    });
+
+    const setChipActive = (buttons, activeBtn) => {
+      buttons.forEach(b => {
+        b.classList.remove("bg-white/10", "border-white/20");
+        b.classList.add("bg-white/5", "border-white/10");
+      });
+      activeBtn.classList.remove("bg-white/5", "border-white/10");
+      activeBtn.classList.add("bg-white/10", "border-white/20");
+    };
+
+    const chipButtons = $$(".chip");
+    if (chipButtons.length) {
+      setChipActive(chipButtons, chipButtons[0]);
+      chipButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          setChipActive(chipButtons, btn);
+          const val = btn.getAttribute("data-chip");
+          const hidden = btn.closest("form").querySelector('input[name="partyType"]');
+          if (hidden) hidden.value = val;
+        });
+      });
+    }
+
+    const pkgButtons = $$(".pkg");
+    if (pkgButtons.length) {
+      const defaultBtn = pkgButtons.find(b => b.getAttribute("data-pkg") === "Signature") || pkgButtons[0];
+      setChipActive(pkgButtons, defaultBtn);
+      pkgButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          setChipActive(pkgButtons, btn);
+          const val = btn.getAttribute("data-pkg");
+          const hidden = $("#leadForm").querySelector('input[name="package"]');
+          if (hidden) hidden.value = val;
+        });
+      });
+    }
+
+    const normalizePhone = (v) => v.replace(/[^\d+]/g, "").slice(0, 16);
+
+    const showMsg = (box, ok, text) => {
+      box.classList.remove("hidden");
+      box.classList.toggle("border-aqua/40", ok);
+      box.classList.toggle("bg-aqua/10", ok);
+      box.classList.toggle("text-white/90", ok);
+
+      box.classList.toggle("border-red-400/35", !ok);
+      box.classList.toggle("bg-red-500/10", !ok);
+      box.classList.toggle("text-red-100", !ok);
+
+      box.textContent = text;
+    };
+
+    const confetti = () => {
+      const layer = $("#confettiLayer");
+      layer.innerHTML = "";
+      layer.classList.remove("hidden");
+
+      const colors = ["#3EE7D1", "#8B5CF6", "#D9B46D", "#FFFFFF"];
+      const count = 110;
+
+      const make = (i) => {
+        const p = document.createElement("div");
+        const size = 6 + Math.random() * 8;
+        const left = Math.random() * 100;
+        const delay = Math.random() * 0.15;
+        const dur = 0.9 + Math.random() * 0.9;
+        const rot = Math.random() * 360;
+        const drift = (Math.random() * 2 - 1) * 120;
+
+        p.style.position = "absolute";
+        p.style.top = "-12px";
+        p.style.left = left + "vw";
+        p.style.width = size + "px";
+        p.style.height = (size * 0.7) + "px";
+        p.style.background = colors[i % colors.length];
+        p.style.opacity = "0.95";
+        p.style.borderRadius = "999px";
+        p.style.filter = "drop-shadow(0 8px 18px rgba(0,0,0,.35))";
+        p.style.transform = `translate3d(0,0,0) rotate(${rot}deg)`;
+
+        p.animate([
+          { transform: `translate3d(0,0,0) rotate(${rot}deg)`, opacity: 0.95 },
+          { transform: `translate3d(${drift}px, 110vh, 0) rotate(${rot + 720}deg)`, opacity: 0.0 }
+        ], { duration: dur * 1000, delay: delay * 1000, easing: "cubic-bezier(.2,.7,.2,1)", fill: "forwards" });
+
+        layer.appendChild(p);
+      };
+
+      for (let i=0;i<count;i++) make(i);
+
+      setTimeout(() => {
+        layer.classList.add("hidden");
+        layer.innerHTML = "";
+      }, 1650);
+    };
+
+    const handleSubmit = (form, msgBox) => {
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const fd = new FormData(form);
+        const name = (fd.get("name") || "").toString().trim();
+        const phoneRaw = (fd.get("phone") || "").toString().trim();
+        const phone = normalizePhone(phoneRaw);
+        const date = (fd.get("date") || "").toString().trim();
+
+        if (name.length < 2) return showMsg(msgBox, false, "Please enter your name.");
+        if (phone.replace(/\D/g,"").length < 10) return showMsg(msgBox, false, "Please enter a valid phone number.");
+        if (!date) return showMsg(msgBox, false, "Please select a preferred date.");
+
+        showMsg(msgBox, true, "Request sent! We’ll confirm availability and pricing shortly.");
+        confetti();
+
+        form.querySelectorAll('input[name="phone"]').forEach(inp => inp.value = phoneRaw);
+
+        const payload = {};
+        fd.forEach((v, k) => {
+          if (payload[k]) {
+            if (Array.isArray(payload[k])) payload[k].push(v);
+            else payload[k] = [payload[k], v];
+          } else payload[k] = v;
+        });
+
+        console.log("Lead payload (connect to your backend / CRM):", payload);
+        form.reset();
+
+        const hiddenParty = form.querySelector('input[name="partyType"]');
+        if (hiddenParty) hiddenParty.value = "Kids Birthday";
+
+        const hiddenPkg = form.querySelector('input[name="package"]');
+        if (hiddenPkg) hiddenPkg.value = "Signature";
+
+        setTimeout(() => {
+          if (chipButtons.length) setChipActive(chipButtons, chipButtons[0]);
+          if (pkgButtons.length) {
+            const defaultBtn = pkgButtons.find(b => b.getAttribute("data-pkg") === "Signature") || pkgButtons[0];
+            setChipActive(pkgButtons, defaultBtn);
+          }
+        }, 0);
+      });
+    };
+
+    const formTop = $("#leadFormTop");
+    const formTopMsg = $("#formTopMsg");
+    if (formTop && formTopMsg) handleSubmit(formTop, formTopMsg);
+
+    const formMain = $("#leadForm");
+    const formMsg = $("#formMsg");
+    if (formMain && formMsg) handleSubmit(formMain, formMsg);
+
+    $("#prefillDemo").addEventListener("click", () => {
+      const f = $("#leadFormTop");
+      f.querySelector('input[name="name"]').value = "Alex";
+      f.querySelector('input[name="phone"]').value = "(555) 123-4567";
+      const d = new Date(); d.setDate(d.getDate() + 10);
+      f.querySelector('input[name="date"]').value = iso(d);
+      f.querySelector('select[name="guests"]').value = "11–20";
+      const note = f.querySelector('textarea[name="notes"]');
+      note.value = "Looking for a private birthday pool party with a luxe vibe. Evening preferred.";
+      showMsg($("#formTopMsg"), true, "Demo filled. Hit “Send Request” to test.");
+    });
+  </script>
+
+</body>
+</html>
