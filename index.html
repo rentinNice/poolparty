@@ -424,36 +424,37 @@
   </div>
 
   <div class="mt-7 reveal">
-    <div class="flex gap-4 overflow-x-auto pb-2 scrollbar-hide">
-      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+   <div id="galleryTrack"
+     class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 cursor-grab active:cursor-grabbing">
+     <div class="snap-start shrink-0 min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
         <img src="pool01.png" alt="High-end private swimming pool at night with elegant warm lighting, shimmering water reflections, luxury lounge chairs, and modern minimalist landscaping" class="w-full h-56 sm:h-64 object-cover">
         <div class="p-5">
           <div class="text-white/90 font-extrabold">Night Glow</div>
           <div class="text-white/65 text-sm mt-1">A premium vibe for unforgettable photos.</div>
         </div>
       </div>
-      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+     <div class="snap-start shrink-0 min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
         <img src="pool02.png" alt="Sunny private pool party setup with stylish cabanas, clean white towels, floating decorations, and a modern patio seating area for birthdays" class="w-full h-56 sm:h-64 object-cover">
         <div class="p-5">
           <div class="text-white/90 font-extrabold">Day Luxe</div>
           <div class="text-white/65 text-sm mt-1">Bright, clean, and celebration-ready.</div>
         </div>
       </div>
-      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+     <div class="snap-start shrink-0 min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
         <img src="pool03.png" alt="Premium outdoor lounge zone next to a private pool with modern sofas, accent pillows, string lights, and a chic birthday party table setting" class="w-full h-56 sm:h-64 object-cover">
         <div class="p-5">
           <div class="text-white/90 font-extrabold">Lounge Zone</div>
           <div class="text-white/65 text-sm mt-1">Comfort seating + stylish ambience.</div>
         </div>
       </div>
-      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+     <div class="snap-start shrink-0 min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
         <img src="pool04.png" alt="BBQ and dining area near a private swimming pool with modern grill station, long table for guests, and warm ambient lighting for a birthday party" class="w-full h-56 sm:h-64 object-cover">
         <div class="p-5">
           <div class="text-white/90 font-extrabold">BBQ & Dining</div>
           <div class="text-white/65 text-sm mt-1">Food-friendly flow for happy guests.</div>
         </div>
       </div>
-      <div class="min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
+     <div class="snap-start shrink-0 min-w-[280px] sm:min-w-[360px] glass rounded-3xl overflow-hidden">
         <img src="hpool05.png" alt="Changing rooms and shower area at a private pool venue with clean modern design, soft lighting, and spa-like details" class="w-full h-56 sm:h-64 object-cover">
         <div class="p-5">
           <div class="text-white/90 font-extrabold">Comfort Amenities</div>
@@ -1113,7 +1114,6 @@
 </div>
 
 <div id="confettiLayer" class="pointer-events-none fixed inset-0 z-[70] hidden"></div>
-```
 
   </main>
 
@@ -1382,6 +1382,42 @@
       showMsg($("#formTopMsg"), true, "Demo filled. Hit “Send Request” to test.");
     });
   </script>
+
+  <script>
+const slider = document.getElementById('galleryTrack');
+
+let isDown = false;
+let startX;
+let scrollLeft;
+
+slider.addEventListener('mousedown', e => {
+  isDown = true;
+  startX = e.pageX - slider.offsetLeft;
+  scrollLeft = slider.scrollLeft;
+});
+
+slider.addEventListener('mouseleave', () => isDown = false);
+slider.addEventListener('mouseup', () => isDown = false);
+
+slider.addEventListener('mousemove', e => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - slider.offsetLeft;
+  const walk = (x - startX) * 1.5;
+  slider.scrollLeft = scrollLeft - walk;
+});
+</script>
+
+
+  <style>
+#galleryTrack::-webkit-scrollbar {
+  display: none;
+}
+#galleryTrack {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+</style>
 
 </body>
 </html>
